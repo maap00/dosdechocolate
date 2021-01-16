@@ -5,6 +5,7 @@ var elem = document.querySelector('.carousel');
 var instance = M.Carousel.init(elem, {
     indicators: true,
     duration: 400,
+    
 });
 
 setInterval(() => {
