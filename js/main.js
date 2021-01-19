@@ -13,5 +13,5 @@ setInterval(() => {
     if (!instance.pressed) {
         instance.next();
     }
-}, none)
+}, 4000)
 
