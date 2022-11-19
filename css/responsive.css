@@ -1,0 +1,118 @@
+/* Settings responsive */
+
+
+@media screen and (max-width:1440px) {
+    .row .description {
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:955px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        background: #ccc;
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+
+    }
+}
+
+@media screen and (max-width:780px) {
+    .title {
+        font-size: 60px;
+
+        margin-bottom: 80px;
+    }
+
+    .carousel {
+        min-height: 400px;
+    }
+
+    .row .description {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        background: #ccc;
+        width: 400px;
+        height: 400px;
+        border-radius: 15px;
+
+    }
+}
+
+@media screen and (max-width:430px) {
+    .title {
+        font-size: 50px;
+
+        margin-bottom: 20px;
+    }
+
+    .logoo .row .col {
+        margin-top: 20px;
+
+    }
+
+
+
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        background: #ccc;
+        width: 90%;
+        height: 90%;
+        border-radius: 15px;
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    .title {
+        font-size: 45px;
+
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        background: #ccc;
+        width: 90%;
+        height: 90%;
+        border-radius: 15px;
+
+    }
+}
+
